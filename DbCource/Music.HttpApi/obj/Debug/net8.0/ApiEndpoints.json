@@ -1,0 +1,476 @@
+[
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "AddLikeSongs",
+    "RelativePath": "addLikeSong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addLikeSong",
+        "Type": "Music.UI.Dtos.AddLikeSong",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "CreateAlbum",
+    "RelativePath": "createAlbum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "album",
+        "Type": "Music.Entity.Album",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "CreateMusic",
+    "RelativePath": "createMusic",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicc",
+        "Type": "Music.Entity.Musicc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "CreateSinger",
+    "RelativePath": "createSinger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "singer",
+        "Type": "Music.Entity.Singer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "CreateSong",
+    "RelativePath": "createSong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "song",
+        "Type": "Music.Entity.Song",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "CreateSongTable",
+    "RelativePath": "createSongTable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songTable",
+        "Type": "Music.Entity.SongTable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "CreateUser",
+    "RelativePath": "createUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Music.Entity.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "DeleteAlbum",
+    "RelativePath": "deleteAlbum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "album",
+        "Type": "Music.Entity.Album",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "DeleteMusic",
+    "RelativePath": "deleteMusic",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicc",
+        "Type": "Music.Entity.Musicc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "DeleteSinger",
+    "RelativePath": "deleteSinger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "singer",
+        "Type": "Music.Entity.Singer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "DeleteSong",
+    "RelativePath": "deleteSong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "song",
+        "Type": "Music.Entity.Song",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "DeleteSongTable",
+    "RelativePath": "deleteSongTable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songTable",
+        "Type": "Music.Entity.SongTable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "DeleteUser",
+    "RelativePath": "deleteUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Music.Entity.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetAllAlbumBySinger",
+    "RelativePath": "getAllAlbumBySinger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "singer",
+        "Type": "Music.Entity.Singer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Music.Entity.Album, Music.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetAllMusicByAlbum",
+    "RelativePath": "getAllMusicByAlbum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "album",
+        "Type": "Music.Entity.Album",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Music.Entity.Musicc, Music.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetAllSinger",
+    "RelativePath": "getAllSinger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Music.Entity.Singer, Music.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetAllSongBySongTable",
+    "RelativePath": "getAllSongBySongTable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songTable",
+        "Type": "Music.Entity.SongTable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Music.Entity.Song, Music.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetAllSongTableByUser",
+    "RelativePath": "getAllSongTableByUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Music.Entity.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Music.Entity.SongTable, Music.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetAllUser",
+    "RelativePath": "getAllUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Music.Entity.User, Music.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "GetUser",
+    "RelativePath": "getUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Music.Entity.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Music.Entity.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "UpdateAlbum",
+    "RelativePath": "updateAlbum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "album",
+        "Type": "Music.Entity.Album",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "UpdateMusic",
+    "RelativePath": "updateMusic",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicc",
+        "Type": "Music.Entity.Musicc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "UpdateSinger",
+    "RelativePath": "updateSinger",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "singer",
+        "Type": "Music.Entity.Singer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "UpdateSong",
+    "RelativePath": "updateSong",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "song",
+        "Type": "Music.Entity.Song",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "UpdateSongTable",
+    "RelativePath": "updateSongTable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songTable",
+        "Type": "Music.Entity.SongTable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Music.HttpApi.Controllers.AllController",
+    "Method": "UpdateUser",
+    "RelativePath": "updateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Music.Entity.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

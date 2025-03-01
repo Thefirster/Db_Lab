@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BootstrapBlazor" Version="9.0.2" />
+    <PackageReference Include="BootstrapBlazor.FontAwesome" Version="9.0.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.*" PrivateAssets="all" />
+    <PackageReference Include="BootstrapBlazor.Player" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Music.Contracts\Music.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\Music.EntityFramework\Music.EntityFramework.csproj" />
+    <ProjectReference Include="..\..\..\Music.Entity\Music.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

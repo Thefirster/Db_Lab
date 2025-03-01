@@ -1,0 +1,15 @@
+C:\DbCource\Music.Contracts\bin\Debug\net8.0\Music.Contracts.deps.json
+C:\DbCource\Music.Contracts\bin\Debug\net8.0\Music.Contracts.dll
+C:\DbCource\Music.Contracts\bin\Debug\net8.0\Music.Contracts.pdb
+C:\DbCource\Music.Contracts\bin\Debug\net8.0\Music.Entity.dll
+C:\DbCource\Music.Contracts\bin\Debug\net8.0\Music.Entity.pdb
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.csproj.AssemblyReference.cache
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.AssemblyInfoInputs.cache
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.AssemblyInfo.cs
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.csproj.CoreCompileInputs.cache
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Co.B412ADD8.Up2Date
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.dll
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\refint\Music.Contracts.dll
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\Music.Contracts.pdb
+C:\DbCource\Music.Contracts\obj\Debug\net8.0\ref\Music.Contracts.dll

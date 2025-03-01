@@ -1,0 +1,157 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\obj\\Debug\\net9.0\\scopedcss\\bundle\\DbCource.UI.styles.css",
+      "PackagePath": "staticwebassets\\DbCource.UI.styles.css"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\Argo-C.png",
+      "PackagePath": "staticwebassets\\images\\Argo-C.png"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\Argo.png",
+      "PackagePath": "staticwebassets\\images\\Argo.png"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-1.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-10.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-10.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-11.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-11.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-12.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-12.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-13.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-13.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-14.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-14.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-15.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-15.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-16.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-16.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-17.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-17.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-18.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-18.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-19.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-19.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-2.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-20.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-20.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-21.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-21.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-22.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-22.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-23.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-23.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-24.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-24.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-3.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-4.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-5.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-6.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-6.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-7.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-7.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-8.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-8.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\avatars\\150-9.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\150-9.jpg"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DbCource.UI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DbCource.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DbCource.UI.props",
+      "PackagePath": "build\\DbCource.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DbCource.UI.props",
+      "PackagePath": "buildMultiTargeting\\DbCource.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DbCource.UI.props",
+      "PackagePath": "buildTransitive\\DbCource.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

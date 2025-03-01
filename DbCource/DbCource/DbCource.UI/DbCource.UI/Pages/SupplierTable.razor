@@ -1,0 +1,43 @@
+﻿@page "/supplierTable"
+@attribute [TabItemOption(Text = "Supplier")]
+@using DbCource.Entity;
+
+<PageTitle>SupplierTable</PageTitle>
+
+<Table TItem="Supplier" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+AutoGenerateColumns="true" EditMode="EditMode.Popup"
+OnQueryAsync="OnQueryAsync"
+OnSaveAsync="OnSaveAsync"
+OnDeleteAsync="OnDeleteAsync">
+    <DetailRowTemplate Context="supplier">
+        <Tab style="width:100%">
+            <TabItem Text="商品菜单">
+                <Table TItem="Product" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                       AutoGenerateColumns="true" EditMode="EditMode.Popup"
+                       OnDeleteAsync="(models) => OnDeleteProductAsync(models,supplier)"
+                       OnQueryAsync="(options) => OnQueryProductAsync(options,supplier)"
+                       OnSaveAsync="(product,type) => OnSaveProductAsync(supplier,product,type)">
+                       <DetailRowTemplate Context="product">
+                            <Tab style="width:100%">
+                                <TabItem Text="合同菜单">
+                                    <Table TItem="Contract" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                                    IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                                    ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                                       AutoGenerateColumns="true" EditMode="EditMode.Popup"
+                                       OnDeleteAsync="(models) => OnDeleteContractAsync(models,supplier,product)"
+                                       OnQueryAsync="(options) => OnQueryContractAsync(options,supplier,product)"
+                                       OnSaveAsync="(contract,type) => OnSaveContractAsync(contract,type,supplier,product)">
+                                    </Table>
+                                </TabItem>
+                            </Tab>
+                       </DetailRowTemplate>
+                </Table>
+            </TabItem>
+         </Tab>
+    </DetailRowTemplate>
+</Table>
+

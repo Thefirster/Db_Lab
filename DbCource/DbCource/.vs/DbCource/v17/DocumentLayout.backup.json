@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DbCource\\DbCource\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|c:\\dbcource\\dbcource\\dbcource.ui\\dbcource.ui\\pages\\suppliertable.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|solutionrelative:dbcource.ui\\dbcource.ui\\pages\\suppliertable.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|c:\\dbcource\\dbcource\\dbcource.ui\\dbcource.ui\\pages\\suppliertable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|solutionrelative:dbcource.ui\\dbcource.ui\\pages\\suppliertable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|c:\\dbcource\\dbcource\\dbcource.ui\\dbcource.ui\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|solutionrelative:dbcource.ui\\dbcource.ui\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|c:\\dbcource\\dbcource\\dbcource.ui\\dbcource.ui\\pages\\wareproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|solutionrelative:dbcource.ui\\dbcource.ui\\pages\\wareproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3843F032-7741-436A-AABB-80B35A8FE13D}|DbCource.HttpApi\\DbCource.HttpApi.csproj|c:\\dbcource\\dbcource\\dbcource.httpapi\\controllers\\allcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3843F032-7741-436A-AABB-80B35A8FE13D}|DbCource.HttpApi\\DbCource.HttpApi.csproj|solutionrelative:dbcource.httpapi\\controllers\\allcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E865E6-1428-46DF-9584-18483D83489B}|DbCource.EntityFramework\\DbCource.EntityFramework.csproj|c:\\dbcource\\dbcource\\dbcource.entityframework\\dbcourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E865E6-1428-46DF-9584-18483D83489B}|DbCource.EntityFramework\\DbCource.EntityFramework.csproj|solutionrelative:dbcource.entityframework\\dbcourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E865E6-1428-46DF-9584-18483D83489B}|DbCource.EntityFramework\\DbCource.EntityFramework.csproj|c:\\dbcource\\dbcource\\dbcource.entityframework\\dbcource.entityframework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10E865E6-1428-46DF-9584-18483D83489B}|DbCource.EntityFramework\\DbCource.EntityFramework.csproj|solutionrelative:dbcource.entityframework\\dbcource.entityframework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153AF07E-A239-450C-B7D6-19A19F907F39}|DbCource.Contracts\\DbCource.Contracts.csproj|c:\\dbcource\\dbcource\\dbcource.contracts\\irepositorycontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153AF07E-A239-450C-B7D6-19A19F907F39}|DbCource.Contracts\\DbCource.Contracts.csproj|solutionrelative:dbcource.contracts\\irepositorycontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|c:\\dbcource\\dbcource\\dbcource.entity\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|solutionrelative:dbcource.entity\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|c:\\dbcource\\dbcource\\dbcource.entity\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|solutionrelative:dbcource.entity\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E865E6-1428-46DF-9584-18483D83489B}|DbCource.EntityFramework\\DbCource.EntityFramework.csproj|c:\\dbcource\\dbcource\\dbcource.entityframework\\mappings\\repositoryoutbound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E865E6-1428-46DF-9584-18483D83489B}|DbCource.EntityFramework\\DbCource.EntityFramework.csproj|solutionrelative:dbcource.entityframework\\mappings\\repositoryoutbound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|c:\\dbcource\\dbcource\\dbcource.entity\\productforwarehource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|solutionrelative:dbcource.entity\\productforwarehource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|c:\\dbcource\\dbcource\\dbcource.entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2318924B-A84F-422C-A380-394BDCD62986}|DbCource.Entity\\DbCource.Entity.csproj|solutionrelative:dbcource.entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|c:\\dbcource\\dbcource\\dbcource.ui\\dbcource.ui\\pages\\inboundtable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00899DD0-46DC-465F-AEAE-4F68FE89DA7E}|DbCource.UI\\DbCource.UI\\DbCource.UI.csproj|solutionrelative:dbcource.ui\\dbcource.ui\\pages\\inboundtable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 496,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Layout\\MainLayout.razor.cs",
+              "RelativeDocumentMoniker": "DbCource.UI\\DbCource.UI\\Layout\\MainLayout.razor.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Layout\\MainLayout.razor.cs",
+              "RelativeToolTip": "DbCource.UI\\DbCource.UI\\Layout\\MainLayout.razor.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:34:21.608Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllController.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.HttpApi\\Controllers\\AllController.cs",
+              "RelativeDocumentMoniker": "DbCource.HttpApi\\Controllers\\AllController.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.HttpApi\\Controllers\\AllController.cs",
+              "RelativeToolTip": "DbCource.HttpApi\\Controllers\\AllController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T03:51:08.777Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SupplierTable.razor.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor.cs",
+              "RelativeDocumentMoniker": "DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor.cs",
+              "RelativeToolTip": "DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T04:40:37.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupplierTable.razor",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor",
+              "RelativeDocumentMoniker": "DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor",
+              "RelativeToolTip": "DbCource.UI\\DbCource.UI\\Pages\\SupplierTable.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T04:38:09.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbCource.EntityFramework.csproj",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCource.EntityFramework.csproj",
+              "RelativeDocumentMoniker": "DbCource.EntityFramework\\DbCource.EntityFramework.csproj",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCource.EntityFramework.csproj",
+              "RelativeToolTip": "DbCource.EntityFramework\\DbCource.EntityFramework.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-01T03:11:47.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositoryOutbound.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\Mappings\\RepositoryOutbound.cs",
+              "RelativeDocumentMoniker": "DbCource.EntityFramework\\Mappings\\RepositoryOutbound.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\Mappings\\RepositoryOutbound.cs",
+              "RelativeToolTip": "DbCource.EntityFramework\\Mappings\\RepositoryOutbound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:17:26.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbCourceContext.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCourceContext.cs",
+              "RelativeDocumentMoniker": "DbCource.EntityFramework\\DbCourceContext.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCourceContext.cs",
+              "RelativeToolTip": "DbCource.EntityFramework\\DbCourceContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T12:11:20.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepositoryContract.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.Contracts\\IRepositoryContract.cs",
+              "RelativeDocumentMoniker": "DbCource.Contracts\\IRepositoryContract.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.Contracts\\IRepositoryContract.cs",
+              "RelativeToolTip": "DbCource.Contracts\\IRepositoryContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T11:57:05.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.Entity\\Product.cs",
+              "RelativeDocumentMoniker": "DbCource.Entity\\Product.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.Entity\\Product.cs",
+              "RelativeToolTip": "DbCource.Entity\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T11:36:38.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductForWarehource.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.Entity\\ProductForWarehource.cs",
+              "RelativeDocumentMoniker": "DbCource.Entity\\ProductForWarehource.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.Entity\\ProductForWarehource.cs",
+              "RelativeToolTip": "DbCource.Entity\\ProductForWarehource.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T11:36:37.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.Entity\\Supplier.cs",
+              "RelativeDocumentMoniker": "DbCource.Entity\\Supplier.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.Entity\\Supplier.cs",
+              "RelativeToolTip": "DbCource.Entity\\Supplier.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T11:10:39.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InboundTable.razor",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\InboundTable.razor",
+              "RelativeDocumentMoniker": "DbCource.UI\\DbCource.UI\\Pages\\InboundTable.razor",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\InboundTable.razor",
+              "RelativeToolTip": "DbCource.UI\\DbCource.UI\\Pages\\InboundTable.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T04:24:20.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WareProduct.razor",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\WareProduct.razor",
+              "RelativeDocumentMoniker": "DbCource.UI\\DbCource.UI\\Pages\\WareProduct.razor",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.UI\\DbCource.UI\\Pages\\WareProduct.razor",
+              "RelativeToolTip": "DbCource.UI\\DbCource.UI\\Pages\\WareProduct.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T04:24:03.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contract.cs",
+              "DocumentMoniker": "C:\\DbCource\\DbCource\\DbCource.Entity\\Contract.cs",
+              "RelativeDocumentMoniker": "DbCource.Entity\\Contract.cs",
+              "ToolTip": "C:\\DbCource\\DbCource\\DbCource.Entity\\Contract.cs",
+              "RelativeToolTip": "DbCource.Entity\\Contract.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T04:01:18.08Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 282,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9a7cebbb-dc5c-4986-bc49-962da46aa506}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\DbCource\Music.Entity\bin\Debug\net8.0\Music.Entity.deps.json
+C:\DbCource\Music.Entity\bin\Debug\net8.0\Music.Entity.dll
+C:\DbCource\Music.Entity\bin\Debug\net8.0\Music.Entity.pdb
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.csproj.AssemblyReference.cache
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.AssemblyInfoInputs.cache
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.AssemblyInfo.cs
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.csproj.CoreCompileInputs.cache
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.dll
+C:\DbCource\Music.Entity\obj\Debug\net8.0\refint\Music.Entity.dll
+C:\DbCource\Music.Entity\obj\Debug\net8.0\Music.Entity.pdb
+C:\DbCource\Music.Entity\obj\Debug\net8.0\ref\Music.Entity.dll

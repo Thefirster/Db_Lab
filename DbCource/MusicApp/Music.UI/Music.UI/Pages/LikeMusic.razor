@@ -1,0 +1,66 @@
+﻿@page "/LikeMusic"
+@attribute [TabItemOption(Text = "LikeMusic")]
+@layout ForUser
+@inject NavigationManager NavigationManager
+@using Music.Entity;
+
+输入密钥
+<BootstrapInput @bind-Value="userGuid" TValue="Guid" ShowLabel="false" PlaceHolder="输入密钥" />
+<Button OnClick="Find" Color="Color.Secondary" IsAsync="true">查询</Button>
+
+@if (IsTable == true)
+{
+    <Table TItem="SongTable" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+            IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+           ShowToolbar="true" ShowAddButton="false" ShowEditButton="false" ShowDeleteButton="false" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+           AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+            OnDeleteAsync="(models) => OnDeleteProductAsync(models,user)"
+            OnQueryAsync="(options) => OnQueryProductAsync(options,user)"
+            OnSaveAsync="(product,type) => OnSaveProductAsync(user,product,type)">
+        <DetailRowTemplate Context="songTable">
+            <Tab style="width:100%">
+                <TabItem Text="歌曲表">
+                    <Table TItem="Song" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                            IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                           ShowToolbar="true" ShowAddButton="false" ShowEditButton="false" ShowDeleteButton="false" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                           AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty ="true"
+                            OnDeleteAsync="(models) => OnDeleteContractAsync(models,user,songTable)"
+                            OnQueryAsync="(options) => OnQueryContractAsync(options,user,songTable)"
+                            OnSaveAsync="(contract,type) => OnSaveContractAsync(contract,type,user,songTable)">
+                        <DetailRowTemplate Context="song">
+                            <Tab style="width:100%">
+                                <TabItem Text="">
+                                    <Button OnClick="() => Listen(songTable,song)" Color="Color.Secondary" IsAsync="true">启动播放</Button>
+                                    @if (_audioEnabled == true)
+                                    {
+                                        <Player Mode="PlayerMode.Audio" Options="_audioOptions"></Player>
+                                    }
+                                </TabItem>
+                            </Tab>
+                        </DetailRowTemplate>
+                    </Table>
+                </TabItem>
+            </Tab>
+        </DetailRowTemplate>
+    </Table>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

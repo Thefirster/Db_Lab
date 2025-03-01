@@ -1,0 +1,374 @@
+[
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "CreateContract",
+    "RelativePath": "createContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contract",
+        "Type": "DbCource.Entity.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "CreateOutbound",
+    "RelativePath": "createOutbound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outbound",
+        "Type": "DbCource.Entity.Outbound",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "CreateProduct",
+    "RelativePath": "CreateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "DbCource.Entity.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "CreateSupplier",
+    "RelativePath": "CreateSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplier",
+        "Type": "DbCource.Entity.Supplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "DeleteContract",
+    "RelativePath": "deleteContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contract",
+        "Type": "DbCource.Entity.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "DeleteOutbound",
+    "RelativePath": "deleteOutbound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outbound",
+        "Type": "DbCource.Entity.Outbound",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "DeleteProduct",
+    "RelativePath": "deleteProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "DbCource.Entity.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "DeleteSupplier",
+    "RelativePath": "deleteSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplier",
+        "Type": "DbCource.Entity.Supplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetAllContract",
+    "RelativePath": "getAllContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "DbCource.Entity.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.Contract, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetContract",
+    "RelativePath": "getAllContractForInbound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.Contract, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetAllOutbound",
+    "RelativePath": "getAllOutbound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productForWarehource",
+        "Type": "DbCource.Entity.ProductForWarehource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.Outbound, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetAllProductBySupplier",
+    "RelativePath": "getAllProductBySupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplier",
+        "Type": "DbCource.Entity.Supplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.Product, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetAllSupplier",
+    "RelativePath": "getAllSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.Supplier, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetAllWareProduct",
+    "RelativePath": "getAllWareProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.ProductForWarehource, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "GetInboundByContract",
+    "RelativePath": "getInboundByContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contract",
+        "Type": "DbCource.Entity.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DbCource.Entity.Inbound, DbCource.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "UpdateContract",
+    "RelativePath": "updateContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contract",
+        "Type": "DbCource.Entity.Contract",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "UpdateInbound",
+    "RelativePath": "updateInbound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inbound",
+        "Type": "DbCource.Entity.Inbound",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "Updatebound",
+    "RelativePath": "updateOutbound",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outbound",
+        "Type": "DbCource.Entity.Outbound",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "UpdateProduct",
+    "RelativePath": "updateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "DbCource.Entity.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbCource.HttpApi.Controllers.AllController",
+    "Method": "UpdateSupplier",
+    "RelativePath": "updateSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplier",
+        "Type": "DbCource.Entity.Supplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

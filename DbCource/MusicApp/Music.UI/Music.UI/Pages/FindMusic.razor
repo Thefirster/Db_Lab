@@ -1,0 +1,76 @@
+﻿@page "/findMusic"
+@attribute [TabItemOption(Text = "findMusic")]
+@layout ForUser
+@inject NavigationManager NavigationManager
+@using Music.Entity;
+
+@if (IsTable == true)
+{
+    <Table TItem="Singer" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+           IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+           ShowToolbar="false" ShowAddButton="false" ShowEditButton="false" ShowDeleteButton="false" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+           AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+           OnQueryAsync="OnQueryAsync"
+           OnSaveAsync="OnSaveAsync"
+           OnDeleteAsync="OnDeleteAsync">
+        <DetailRowTemplate Context="singer">
+            <Tab style="width:100%">
+                <TabItem Text="专辑列表">
+                    <Table TItem="Album" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                           IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                           ShowToolbar="false" ShowAddButton="false" ShowEditButton="false" ShowDeleteButton="false" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                           AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+                           OnDeleteAsync="(models) => OnDeleteProductAsync(models,singer)"
+                           OnQueryAsync="(options) => OnQueryProductAsync(options,singer)"
+                           OnSaveAsync="(album,type) => OnSaveProductAsync(singer,album,type)">
+                        <DetailRowTemplate Context="album">
+                            <Tab style="width:100%">
+                                <TabItem Text="歌曲列表">
+                                    <Table TItem="Musicc" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                                           IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                                           ShowToolbar="true" ShowAddButton="false" ShowEditButton="false" ShowDeleteButton="false" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                                           AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+                                           OnDeleteAsync="(models) => OnDeleteContractAsync(models,singer,album)"
+                                           OnQueryAsync="(options) => OnQueryContractAsync(options,singer,album)"
+                                           OnSaveAsync="(contract,type) => OnSaveContractAsync(contract,type,singer,album)">
+                                        <DetailRowTemplate Context="musicc">
+                                            <Tab style="width:100%">
+                                                <TabItem Text="下单">
+                                                    输入密钥
+                                                    <BootstrapInput @bind-Value="userGuid" TValue="Guid" ShowLabel="false" PlaceHolder="输入密钥" />
+                                                    输入歌单名
+                                                    <BootstrapInput @bind-Value="SongTableName" TValue="string" ShowLabel="false" PlaceHolder="输入歌单名" />
+                                                    <Button OnClick="() => CreateLike(singer,album,musicc)" Color="Color.Secondary" IsAsync="true">加入喜欢</Button>
+                                                </TabItem>
+                                            </Tab>
+                                        </DetailRowTemplate>
+                                    </Table>
+                                </TabItem>
+                            </Tab>
+                        </DetailRowTemplate>
+                    </Table>
+                </TabItem>
+            </Tab>
+        </DetailRowTemplate>
+
+    </Table>
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

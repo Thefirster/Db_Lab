@@ -1,0 +1,51 @@
+.login-item-gitee[b-okhfeirzk9] {
+    --bs-border-radius: 6px;
+    --login-padding-x: .75rem;
+    margin: 1.5rem auto;
+}
+
+    .login-item-gitee a[b-okhfeirzk9] {
+        color: #005980;
+    }
+
+    .login-item-gitee .login-header[b-okhfeirzk9] {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 1.5rem;
+    }
+
+        .login-item-gitee .login-header > span[b-okhfeirzk9] {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .login-item-gitee .login-header > span[b-okhfeirzk9] {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+    .login-item-gitee .login-sms[b-okhfeirzk9] {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .login-item-gitee .login-sms > a[b-okhfeirzk9] {
+            padding: var(--login-padding-y) var(--login-padding-x);
+            margin-bottom: 1rem;
+        }
+
+    .login-item-gitee .login-oauth[b-okhfeirzk9] {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .login-item-gitee .login-oauth i[b-okhfeirzk9] {
+            font-size: 2rem;
+            color: #485585;
+        }
+
+    .login-item-gitee[b-okhfeirzk9]  .divider {
+        --bb-divider-margin: 2rem;
+    }

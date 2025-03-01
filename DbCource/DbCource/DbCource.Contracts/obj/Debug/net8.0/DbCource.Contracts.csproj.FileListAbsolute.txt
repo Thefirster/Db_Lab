@@ -1,0 +1,15 @@
+C:\DbCource\DbCource\DbCource.Contracts\bin\Debug\net8.0\DbCource.Contracts.deps.json
+C:\DbCource\DbCource\DbCource.Contracts\bin\Debug\net8.0\DbCource.Contracts.dll
+C:\DbCource\DbCource\DbCource.Contracts\bin\Debug\net8.0\DbCource.Contracts.pdb
+C:\DbCource\DbCource\DbCource.Contracts\bin\Debug\net8.0\DbCource.Entity.dll
+C:\DbCource\DbCource\DbCource.Contracts\bin\Debug\net8.0\DbCource.Entity.pdb
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.csproj.AssemblyReference.cache
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.AssemblyInfoInputs.cache
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.AssemblyInfo.cs
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.csproj.CoreCompileInputs.cache
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.D0A9C9BA.Up2Date
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.dll
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\refint\DbCource.Contracts.dll
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\DbCource.Contracts.pdb
+C:\DbCource\DbCource\DbCource.Contracts\obj\Debug\net8.0\ref\DbCource.Contracts.dll

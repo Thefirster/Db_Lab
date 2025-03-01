@@ -1,0 +1,24 @@
+﻿@using DbCource.Entity;
+@inherits LayoutComponentBase
+@layout TutorialsLayout
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <Card class="shadow-lg border-0 my-5">
+                <BodyTemplate>
+                    <CascadingValue Value="Model" IsFixed="true">
+                        @Body
+                    </CascadingValue>
+                </BodyTemplate>
+            </Card>
+        </div>
+    </div>
+</div>
+
+@code
+{
+
+    [NotNull]
+    private User? Model { get; set; } = new User { UserName = string.Empty, Password = string.Empty };
+}

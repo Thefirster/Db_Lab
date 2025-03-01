@@ -1,0 +1,62 @@
+﻿@page "/Login"
+@using Microsoft.AspNetCore.Components.Authorization
+@using DbCource.Entity;
+@layout TutorialsLoginLayout
+@inject NavigationManager NavigationManager
+
+<div class="login-item login-item-gitee">
+
+    <div class="login-header">
+        <span>登录</span>
+        <div class="login-register">没有账号？<a href="/Register">点此注册</a></div>
+    </div>
+
+    <BootstrapInput @bind-Value="Model.UserName" TValue="string" ShowLabel="false" PlaceHolder="请输入账号" />
+    <BootstrapPassword @bind-Value="Model.Password" ShowLabel="false" PlaceHolder="请输入密码" />
+    <div class="login-sms">
+        <Checkbox TValue="bool" ShowLabel="false" ShowAfterLabel="true" DisplayText="记住我" />
+    </div>
+    <Button Text="登录" Color="Color.Primary" OnClick="LoginAsync" IsAsync="true"></Button>
+    <div class="text-center my-4">
+        <a href="#">已有账号，忘记密码</a>
+    </div>
+    @if (IsError)
+    {
+        <Alert Color="Color.Danger">账号或密码错误</Alert>
+    }
+</div>
+
+@code {
+    [CascadingParameter]
+    [NotNull]
+    private User? Model { get; set; }
+
+    private bool IsError { get; set; } = false;
+    
+    private async Task LoginAsync()
+    {
+        /*
+        var result = await (jwtAuthenticationStateProvider as JwtAuthenticationStateProvider).LoginAsync(Model.Username, Model.Password);
+        if (result) NavigationManager.NavigateTo("/");
+        else IsError = true;
+        StateHasChanged();
+        */
+
+
+
+        NavigationManager.NavigateTo("/");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

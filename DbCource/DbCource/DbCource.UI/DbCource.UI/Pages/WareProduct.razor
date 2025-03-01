@@ -1,0 +1,29 @@
+﻿@page "/outboundTable"
+@attribute [TabItemOption(Text = "wareProduct")]
+@using DbCource.Entity;
+
+<PageTitle>InboundTable</PageTitle>
+
+<Table TItem="ProductForWarehource" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+AutoGenerateColumns="true" EditMode="EditMode.Popup"
+       OnQueryAsync="OnQueryAsync"
+       OnSaveAsync="OnSaveAsync"
+       OnDeleteAsync="OnDeleteAsync">
+
+    <DetailRowTemplate Context="wareProduct">
+        <Tab style="width:100%">
+            <TabItem Text="出库菜单">
+                <Table TItem="Outbound" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                        IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                        ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                        AutoGenerateColumns="true" EditMode="EditMode.Popup"
+                       OnDeleteAsync="(models) => OnDeleteOutboundAsync(models,wareProduct)"
+                       OnSaveAsync="(inbound,type) => OnSaveOutboundAsync(wareProduct,inbound,type)"
+                       OnQueryAsync="(options) => OnQueryOutboundAsync(wareProduct,options)">
+                </Table>
+            </TabItem>
+        </Tab>
+    </DetailRowTemplate>
+</Table>

@@ -1,0 +1,30 @@
+﻿@page "/Register"
+@using Microsoft.AspNetCore.Components.Authorization
+@using Music.Entity;
+@layout TutorialsLoginLayout
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
+请输入账号
+<BootstrapInput DisplayText="请输入账号" @bind-Value="user.Name" TValue="string" ShowLabel="false" PlaceHolder="请输入账号" />
+请输入密码
+<BootstrapInput DisplayText="请输入密码" @bind-Value="user.Password" TValue="string" ShowLabel="false" PlaceHolder="请输入密码" />
+请输入性别
+<BootstrapInput DisplayText="请输入性别" @bind-Value="user.Gender" TValue="string" ShowLabel="false" PlaceHolder="请输入性别" />
+请输入电话
+<BootstrapInput DisplayText="请输入电话" @bind-Value="user.Phone" TValue="string" ShowLabel="false" PlaceHolder="请输入电话" />
+请输入邮箱
+<BootstrapInput DisplayText="请输入邮箱" @bind-Value="user.Email" TValue="string" ShowLabel="false" PlaceHolder="请输入邮箱" />
+<div class="row g-3">
+    <div class="col-7 col-sm-5 col-md-3 col-lg-auto"><Button OnClick="CreateUser" Color="Color.Secondary" IsAsync="true">提交创建</Button></div>
+</div>
+
+@code{
+    private User user = new User();
+
+    private async Task CreateUser()
+    {
+        var response = await Http.PostAsJsonAsync("/createUser", user);
+        NavigationManager.NavigateTo("/Login");
+    }
+}

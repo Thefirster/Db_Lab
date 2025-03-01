@@ -1,0 +1,39 @@
+﻿@page "/inboundTable"
+@attribute [TabItemOption(Text = "InboundTable")]
+@using DbCource.Entity;
+
+<PageTitle>InboundTable</PageTitle>
+
+<Table TItem="Contract" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+AutoGenerateColumns="true" EditMode="EditMode.Popup"
+       OnQueryAsync="OnQueryAsync"
+       OnSaveAsync="OnSaveAsync"
+       OnDeleteAsync="OnDeleteAsync">
+
+    <DetailRowTemplate Context="contract">
+        <Tab style="width:100%">
+            <TabItem Text="入库菜单">
+                <Table TItem="Inbound" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                        IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                        ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                        AutoGenerateColumns="true" EditMode="EditMode.Popup"
+                       OnDeleteAsync="(models) => OnDeleteInboundAsync(models,contract)"
+                       OnSaveAsync="(inbound,type) => OnSaveInboundAsync(contract,inbound,type)"
+                       OnQueryAsync="(options) => OnQueryInboundAsync(contract,options)">
+                </Table>
+            </TabItem>
+        </Tab>
+    </DetailRowTemplate>
+</Table>
+
+
+
+
+
+
+
+
+
+

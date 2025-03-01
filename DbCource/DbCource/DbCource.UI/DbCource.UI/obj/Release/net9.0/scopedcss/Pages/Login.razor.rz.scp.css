@@ -1,0 +1,51 @@
+.login-item-gitee[b-j716grjmln] {
+    --bs-border-radius: 6px;
+    --login-padding-x: .75rem;
+    margin: 1.5rem auto;
+}
+
+    .login-item-gitee a[b-j716grjmln] {
+        color: #005980;
+    }
+
+    .login-item-gitee .login-header[b-j716grjmln] {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 1.5rem;
+    }
+
+        .login-item-gitee .login-header > span[b-j716grjmln] {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .login-item-gitee .login-header > span[b-j716grjmln] {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+    .login-item-gitee .login-sms[b-j716grjmln] {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .login-item-gitee .login-sms > a[b-j716grjmln] {
+            padding: var(--login-padding-y) var(--login-padding-x);
+            margin-bottom: 1rem;
+        }
+
+    .login-item-gitee .login-oauth[b-j716grjmln] {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .login-item-gitee .login-oauth i[b-j716grjmln] {
+            font-size: 2rem;
+            color: #485585;
+        }
+
+    .login-item-gitee[b-j716grjmln]  .divider {
+        --bb-divider-margin: 2rem;
+    }

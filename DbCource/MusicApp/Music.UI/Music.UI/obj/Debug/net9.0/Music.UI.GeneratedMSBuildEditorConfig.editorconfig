@@ -1,0 +1,89 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Music.UI
+build_property.RootNamespace = Music.UI
+build_property.ProjectDir = C:\DbCource\MusicApp\Music.UI\Music.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\DbCource\MusicApp\Music.UI\Music.UI
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Layout/Widget.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFdpZGdldC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/FindMusic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluZE11c2ljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/LikeMusic.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlrZU11c2ljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/SingerTable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2luZ2VyVGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/UserTable.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Layout/LayoutPreview.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExheW91dFByZXZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7t72xix9ba
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-c19nln9ay0
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Layout/TutorialsLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFR1dG9yaWFsc0xheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qel02cxvip
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Layout/TutorialsLoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFR1dG9yaWFsc0xvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-pm4jruw918
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/FindUserID.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluZFVzZXJJRC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-b7ci6vqdvx
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/ForUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-h2kxp7r63m
+
+[C:/DbCource/MusicApp/Music.UI/Music.UI/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-okhfeirzk9

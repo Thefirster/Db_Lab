@@ -1,0 +1,12 @@
+C:\DbCource\DbCource\DbCource.Entity\bin\Debug\net8.0\DbCource.Entity.deps.json
+C:\DbCource\DbCource\DbCource.Entity\bin\Debug\net8.0\DbCource.Entity.dll
+C:\DbCource\DbCource\DbCource.Entity\bin\Debug\net8.0\DbCource.Entity.pdb
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.csproj.AssemblyReference.cache
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.AssemblyInfoInputs.cache
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.AssemblyInfo.cs
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.csproj.CoreCompileInputs.cache
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.dll
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\refint\DbCource.Entity.dll
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\DbCource.Entity.pdb
+C:\DbCource\DbCource\DbCource.Entity\obj\Debug\net8.0\ref\DbCource.Entity.dll

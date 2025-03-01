@@ -1,0 +1,50 @@
+﻿@page "/userTable"
+@attribute [TabItemOption(Text = "User")]
+@using Music.Entity;
+
+<PageTitle>UserTable</PageTitle>
+
+<Table TItem="User" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+       IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+       ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+       AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+       OnQueryAsync="OnQueryAsync"
+       OnSaveAsync="OnSaveAsync"
+       OnDeleteAsync="OnDeleteAsync">
+    <DetailRowTemplate Context="user">
+        <Tab style="width:100%">
+            <TabItem Text="收藏歌单">
+                <Table TItem="SongTable" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                       IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                       ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                       AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+                       OnDeleteAsync="(models) => OnDeleteProductAsync(models,user)"
+                       OnQueryAsync="(options) => OnQueryProductAsync(options,user)"
+                       OnSaveAsync="(product,type) => OnSaveProductAsync(user,product,type)">
+                    <DetailRowTemplate Context="songTable">
+                        <Tab style="width:100%">
+                            <TabItem Text="歌曲表">
+                                <Table TItem="Song" IsPagination="true" PageItemsSource="[10, 20]" class="table-demo"
+                                       IsStriped="true" IsBordered="true" ShowSkeleton="true" IsMultipleSelect="true"
+                                       ShowToolbar="true" ShowSearch="true" ShowExtendButtons="true" ShowTopPagination="true"
+                                       AutoGenerateColumns="true" EditMode="EditMode.Popup" ShowEmpty="true"
+                                       OnDeleteAsync="(models) => OnDeleteContractAsync(models,user,songTable)"
+                                       OnQueryAsync="(options) => OnQueryContractAsync(options,user,songTable)"
+                                       OnSaveAsync="(contract,type) => OnSaveContractAsync(contract,type,user,songTable)">
+                                </Table>
+                            </TabItem>
+                        </Tab>
+                    </DetailRowTemplate>
+                </Table>
+            </TabItem>
+        </Tab>
+    </DetailRowTemplate>
+
+</Table>
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+﻿@page "/findUserID"
+@attribute [TabItemOption(Text = "findUserID")]
+@layout ForUser
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+@using Music.Entity;
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <Card class="shadow-lg border-0 my-5">
+                <BodyTemplate>
+                    <CascadingValue Value="Model" IsFixed="true">
+                        <div class="login-item login-item-gitee">
+                            <div class="login-header">
+                                <span>获取密钥</span>
+                            </div>
+                            请输入账号
+                            <BootstrapInput @bind-Value="Model.Name" TValue="string" ShowLabel="false" PlaceHolder="请输入账号" />
+                            请输入密码
+                            <BootstrapPassword @bind-Value="Model.Password" ShowLabel="false" PlaceHolder="请输入密码" />
+                            <div class="row g-3">
+                                <div class="col-7 col-sm-5 col-md-3 col-lg-auto"><Button OnClick="GetID" Color="Color.Secondary" IsAsync="true">获取密钥</Button></div>
+                            </div>
+                        </div>
+                        @if (IsError == true)
+                        {
+                            <div class="row g-4">
+                                @Model.UserID
+                            </div>
+                        }
+                    </CascadingValue>
+                </BodyTemplate>
+            </Card>
+        </div>
+    </div>
+</div>
+
+@code {
+    [CascadingParameter]
+    [NotNull]
+    private User? Model { get; set; } = new User{
+            Name = "请输入账号",
+            Password = "请输入密码"
+    };
+
+    private bool IsError { get; set; } = false;
+
+    private async Task GetID()
+    {
+        var response = await Http.PostAsJsonAsync("/getUser", Model);
+        var user = await response.Content.ReadFromJsonAsync<User>();
+        Model = user;
+        IsError = true;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
