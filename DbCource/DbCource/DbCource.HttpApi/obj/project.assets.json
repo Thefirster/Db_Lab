@@ -4961,11 +4961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DbCource\\DbCource\\DbCource.HttpApi\\DbCource.HttpApi.csproj",
+      "projectUniqueName": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.HttpApi\\DbCource.HttpApi.csproj",
       "projectName": "DbCource.HttpApi",
-      "projectPath": "C:\\DbCource\\DbCource\\DbCource.HttpApi\\DbCource.HttpApi.csproj",
+      "projectPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.HttpApi\\DbCource.HttpApi.csproj",
       "packagesPath": "C:\\Users\\a1146\\.nuget\\packages\\",
-      "outputPath": "C:\\DbCource\\DbCource\\DbCource.HttpApi\\obj\\",
+      "outputPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.HttpApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4987,14 +4987,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\DbCource\\DbCource\\DbCource.Contracts\\DbCource.Contracts.csproj": {
-              "projectPath": "C:\\DbCource\\DbCource\\DbCource.Contracts\\DbCource.Contracts.csproj"
+            "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Contracts\\DbCource.Contracts.csproj": {
+              "projectPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Contracts\\DbCource.Contracts.csproj"
             },
-            "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCource.EntityFramework.csproj": {
-              "projectPath": "C:\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCource.EntityFramework.csproj"
+            "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCource.EntityFramework.csproj": {
+              "projectPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.EntityFramework\\DbCource.EntityFramework.csproj"
             },
-            "C:\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj": {
-              "projectPath": "C:\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj"
+            "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj": {
+              "projectPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj"
             }
           }
         }

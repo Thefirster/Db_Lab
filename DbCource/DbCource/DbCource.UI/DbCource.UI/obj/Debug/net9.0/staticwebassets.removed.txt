@@ -1,0 +1,3 @@
+C:\DbCource\DbCource\DbCource.UI\DbCource.UI\wwwroot\index.html
+C:\DbCource\DbCource\DbCource.UI\DbCource.UI\wwwroot\css\app.css
+C:\DbCource\DbCource\DbCource.UI\DbCource.UI\wwwroot\favicon.ico

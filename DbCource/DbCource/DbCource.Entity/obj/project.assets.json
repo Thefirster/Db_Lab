@@ -1616,11 +1616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj",
+      "projectUniqueName": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj",
       "projectName": "DbCource.Entity",
-      "projectPath": "C:\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj",
+      "projectPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Entity\\DbCource.Entity.csproj",
       "packagesPath": "C:\\Users\\a1146\\.nuget\\packages\\",
-      "outputPath": "C:\\DbCource\\DbCource\\DbCource.Entity\\obj\\",
+      "outputPath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

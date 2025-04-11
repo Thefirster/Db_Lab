@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EApROtphSvY=",
+  "dgSpecHash": "D/5wbC9DwUE=",
   "success": true,
-  "projectFilePath": "C:\\DbCource\\DbCource\\DbCource.Contracts\\DbCource.Contracts.csproj",
+  "projectFilePath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.Contracts\\DbCource.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a1146\\.nuget\\packages\\bootstrapblazor\\9.0.2\\bootstrapblazor.9.0.2.nupkg.sha512",
     "C:\\Users\\a1146\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.11\\microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",

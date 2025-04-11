@@ -13,61 +13,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = DbCource.UI
 build_property.RootNamespace = DbCource.UI
-build_property.ProjectDir = C:\DbCource\DbCource\DbCource.UI\DbCource.UI\
+build_property.ProjectDir = D:\GithubCode\Git\DbCource\DbCource\DbCource.UI\DbCource.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\DbCource\DbCource\DbCource.UI\DbCource.UI
+build_property.MSBuildProjectDirectory = D:\GithubCode\Git\DbCource\DbCource\DbCource.UI\DbCource.UI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/App.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/Widget.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/Widget.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFdpZGdldC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/Home.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/InboundTable.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/InboundTable.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ib3VuZFRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/SupplierTable.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/SupplierTable.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJUYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/WareProduct.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/WareProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2FyZVByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/_Imports.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/LayoutPreview.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/LayoutPreview.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExheW91dFByZXZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wyl6mj5sue
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/MainLayout.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-obsoib5r3p
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/TutorialsLayout.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/TutorialsLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFR1dG9yaWFsc0xheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-rmcxo7p93n
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/TutorialsLoginLayout.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Layout/TutorialsLoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFR1dG9yaWFsc0xvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-rtceeybe08
 
-[C:/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/Login.razor]
+[D:/GithubCode/Git/DbCource/DbCource/DbCource.UI/DbCource.UI/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-j716grjmln

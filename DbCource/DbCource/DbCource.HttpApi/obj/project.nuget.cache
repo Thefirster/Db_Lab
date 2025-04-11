@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4qA8wVvGb1s=",
+  "dgSpecHash": "yQTv3r0vvsg=",
   "success": true,
-  "projectFilePath": "C:\\DbCource\\DbCource\\DbCource.HttpApi\\DbCource.HttpApi.csproj",
+  "projectFilePath": "D:\\GithubCode\\Git\\DbCource\\DbCource\\DbCource.HttpApi\\DbCource.HttpApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a1146\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\a1146\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
